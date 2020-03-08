@@ -18,10 +18,10 @@ def consolidate_cart(cart)
   counter = 0
 
   while counter < cart.length
-    if 
+    if
     counter += 1
-  end  
-  
+  end
+
 
 
   #return: [{:item => "AVOCADO", :price => 3.00, :clearance => true, counter => 3}]
