@@ -14,13 +14,19 @@ end
 
 def consolidate_cart(cart)
 
-new_cart = []
-counter
+  new_cart = []
+  counter = 0
 
-while counter < cart.length
-
+  while counter < cart.length
+    if 
+    counter += 1
+  end  
   
 
+
+  #return: [{:item => "AVOCADO", :price => 3.00, :clearance => true, counter => 3}]
+  #item: {:item => "AVOCADO". :price => 3.00, :clearance => true, :counter => 3}
+  
   # Consult README for inputs and outputs
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
