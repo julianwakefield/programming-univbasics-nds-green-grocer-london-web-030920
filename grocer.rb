@@ -15,12 +15,12 @@ end
 def consolidate_cart(cart)
 
 new_cart = []
-counter 
+counter
 
-while counter < cart.length 
+while counter < cart.length
 
   
-  
+
   # Consult README for inputs and outputs
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
