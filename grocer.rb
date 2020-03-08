@@ -43,17 +43,17 @@ end
 # change `cart` (i.e. mutate) it. It's easier to return a new thing.
 
 
-
-
-
 def apply_coupons(cart, coupons)
-
-
-
-
-
-
-
+    counter = 0
+    while counter < coupons.length 
+      cart_item = find_item_by_name_in_collection(coupons[counter][:item], cart)
+      couponed_item_name = "#{coupons[counter][:item]} W/COUPON"
+      cart_item_with_coupon = find_item_by_name_in_collection(couponed_item_name, cart)
+      
+      
+      counter += 1
+    end
+    
 end
   # Consult README for inputs and outputs
   #
