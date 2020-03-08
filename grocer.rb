@@ -92,6 +92,14 @@ end
 
 
 def checkout(cart, coupons)
+
+
+
+
+
+
+
+end
   # Consult README for inputs and outputs
   #
   # This method should call
@@ -101,4 +109,3 @@ def checkout(cart, coupons)
   #
   # BEFORE it begins the work of calculating the total (or else you might have
   # some irritated customers
-end
