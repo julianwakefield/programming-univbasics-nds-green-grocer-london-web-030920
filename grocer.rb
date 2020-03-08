@@ -18,7 +18,7 @@ def consolidate_cart(cart)
   counter = 0
 
   while counter < cart.length
-    if
+    new_cart_item = find_item_by_name_in_collection(cart[counter][:item])
     counter += 1
   end
 
@@ -26,7 +26,7 @@ def consolidate_cart(cart)
 
   #return: [{:item => "AVOCADO", :price => 3.00, :clearance => true, counter => 3}]
   #item: {:item => "AVOCADO". :price => 3.00, :clearance => true, :counter => 3}
-  
+
   # Consult README for inputs and outputs
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
